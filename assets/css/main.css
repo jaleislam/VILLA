@@ -1,0 +1,407 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+  display: flex;
+}
+header nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger6.svg?color=000");
+}
+
+.navbar.navbar-2 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff");
+}
+
+.navbar.navbar-3 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger1.svg?color=6a1b9a");
+}
+
+.navbar.navbar-4 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger7.svg?color=BFE100");
+}
+
+.navbar.navbar-5 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger5.svg?color=f3e5f5");
+}
+
+.navbar.navbar-6 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger8.svg?color=E3005C");
+}
+
+.navbar.navbar-7 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger9.svg?color=FF2C00");
+}
+
+.navbar.navbar-8 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729B0");
+}
+
+.navbar.navbar-9 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FBD8");
+}
+
+#Villa {
+  width: 100%;
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://preview.colorlib.com/theme/villa/img/hero_1.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Villa .container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Villa .container .VillaItem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#Villa .container .VillaItem h1 {
+  font-size: 80px;
+  font-family: "Playfair+Display", times, serif;
+  color: #fff;
+  line-height: 1;
+  font-weight: bold;
+}
+#Villa .container .VillaItem p {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 200;
+  color: #fff;
+  line-height: 1.5;
+}
+#Villa .container .VillaItem #explore {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #e61c5d;
+  color: #fff;
+  font-weight: 400px;
+  border: none;
+}
+#Villa .container .VillaItem #explore:hover {
+  cursor: pointer;
+  background-color: #dc3545;
+}
+#Villa .container .VillaItem #down {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-weight: 500;
+}
+#Villa .container .VillaItem #down:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#Visit {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  margin-top: 20px;
+}
+#Visit .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+#Visit .container #visit {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Mukta Mahee", arial, sans-serif;
+  color: #b3b3b3;
+  letter-spacing: 0.2em;
+  margin-bottom: 30px;
+}
+#Visit .container .VisitCard {
+  margin-top: 20px;
+}
+#Visit .container .VisitCard img {
+  width: 100%;
+  height: auto;
+}
+#Visit .container .VisitCard h5 {
+  margin-top: 6px;
+  font-family: "Playfair+Display", times, serif;
+  color: #000;
+  font-size: 18px;
+}
+#Visit .container .VisitCard h5:hover {
+  cursor: pointer;
+  color: #e61c5d;
+}
+#Visit .container .VisitCard i {
+  color: #e61c5d;
+}
+#Visit .container .VisitCard #foot {
+  color: #b3b3b3;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 30px;
+}
+
+#gorgeous {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  margin-top: 20px;
+}
+#gorgeous .container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#gorgeous .container .gorgeousHeader {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#gorgeous .container .gorgeousHeader h1 {
+  width: 50%;
+  margin-top: 20px;
+  font-size: 60px;
+  font-family: "Playfair+Display", times, serif;
+}
+#gorgeous .container .gorgeousHeader p {
+  margin-top: 10px;
+  width: 60%;
+  font-family: "Mukta Mahee", arial, sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #b3b3b3;
+}
+#gorgeous .container .gorgeousHeader .carusel {
+  width: 100%;
+  height: auto;
+}
+
+#Blog {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-image: url("https://preview.colorlib.com/theme/villa/img/round.png");
+  margin-top: 20px;
+}
+#Blog .container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#Blog .container .BlogHead {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#Blog .container .BlogHead h1 {
+  margin-top: 20px;
+  font-size: 55px;
+  font-family: "Playfair+Display", times, serif;
+}
+#Blog .container .BlogHead p {
+  margin-top: 10px;
+  width: 60%;
+  font-family: "Mukta Mahee", arial, sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #b3b3b3;
+}
+#Blog .container #productsList {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Blog .container #productsList .boxDiv {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#Blog .container #productsList .boxDiv img {
+  width: 90%;
+  height: auto;
+}
+#Blog .container #productsList .boxDiv .title {
+  color: #000;
+  font-weight: 600;
+  font-style: italic;
+}
+#Blog .container #productsList .boxDiv .description {
+  color: #b3b3b3;
+  font-weight: 500;
+  font-style: italic;
+}
+#Blog .container #productsList .boxDiv button {
+  border: none;
+  padding: 8px;
+  background-color: #1A1A1A;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#Blog .container #productsList .boxDiv button:hover {
+  background-color: #fff;
+  color: #000;
+}
+#Blog .container #pagi {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-start;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+  cursor: pointer;
+  color: #b3b3b3;
+}
+#Blog .container a {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(155, 17, 17);
+  color: #fff;
+}
+#Blog .container a i {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 991px) {
+  #Blog .container #productsList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #Blog .container #productsList img {
+    width: 100%;
+  }
+}
+footer {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  margin-top: 20px;
+  background-color: #000;
+}
+footer .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+footer .container .footText span {
+  color: #b3b3b3;
+}
+footer .container .footText i {
+  color: #b3b3b3;
+}
+footer .container .footText a {
+  color: #b3b3b3;
+}
+footer .container .iconText {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .iconText i {
+  color: #b3b3b3;
+}
+footer .container .iconText i:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+  display: flex;
+}
+header nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger6.svg?color=000");
+}
+
+.navbar.navbar-2 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff");
+}
+
+.navbar.navbar-3 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger1.svg?color=6a1b9a");
+}
+
+.navbar.navbar-4 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger7.svg?color=BFE100");
+}
+
+.navbar.navbar-5 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger5.svg?color=f3e5f5");
+}
+
+.navbar.navbar-6 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger8.svg?color=E3005C");
+}
+
+.navbar.navbar-7 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger9.svg?color=FF2C00");
+}
+
+.navbar.navbar-8 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729B0");
+}
+
+.navbar.navbar-9 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FBD8");
+}
